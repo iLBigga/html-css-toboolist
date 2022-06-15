@@ -18,9 +18,16 @@ body {
     background-color: white;
 }
 
-.logo {
+.main-title,
+.logo{
+    display: inline-block;
     vertical-align: middle;
+    font-size: 40px;
 }
+
+/* .logo {
+    vertical-align: middle;
+} */
 
 /* Regole main */
 .container {
@@ -46,16 +53,21 @@ body {
 }
 
 
-
 /* Regole lista */
 .container-main-list{
     font-size: 20px;
     padding:  30px 50px;
 }   
 
-.list-item{
-    margin-top: 10px;
+h2::before{
+    content: ' \25BC';
+    font-size: 18px;
 }
+
+h2{
+    margin-top: 30px;
+}
+
 
 li{
     list-style-type: none;
