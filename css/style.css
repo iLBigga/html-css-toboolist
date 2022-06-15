@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -30,12 +31,14 @@ body {
 } */
 
 /* Regole main */
+.content{
+    padding: 50px;
+}
 .container {
     margin: 0 auto;
     max-width: 1000px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 80px;
 }
 
 /* Regole button */
@@ -49,7 +52,14 @@ body {
     display: inline-block;
     border: 1px solid lightgray;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0px 20px;
+    line-height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+.bkg-color{
+    background-color:  rgb(0, 134, 243);
 }
 
 
@@ -64,7 +74,7 @@ h2::before{
     font-size: 18px;
 }
 
-h2{
+.list-item {
     margin-top: 30px;
 }
 
@@ -77,8 +87,8 @@ li{
 /* check e cross */
 .circle{
     display: inline-block;
+    border: 1px solid currentColor;
     border-radius: 50%;
-    height: 20px;
     width: 20px;
     font-size: 15px;
     line-height: 20px;
@@ -86,13 +96,11 @@ li{
     vertical-align: middle;
 }
 
-.red{
-    border: 1px solid red;
+.cross{
     color: red;
 }
 
 .check{
-    border: 1px solid lightgreen;
     color: lightgreen;
 }
 
@@ -100,11 +108,11 @@ li{
 /* Regole classi lista */
 .class{
     display: inline-block;
-    border: 1px solid white;
     border-radius: 10px;
     font-size: 15px;
     color: white;
     padding: 5px 10px;
+    vertical-align: middle;
 }
 
 
